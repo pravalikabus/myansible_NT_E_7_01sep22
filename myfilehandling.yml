@@ -11,3 +11,9 @@
     copy:
        src: my2nfile.txt
        dest: /home/ubuntu/my2ndfile
+  - name: install apache2 
+    apt:
+      name: apache2
+      state: present
+
+      
